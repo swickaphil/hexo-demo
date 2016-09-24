@@ -4,15 +4,15 @@
 
 # Site
 title: swickaphil.github.io
-subtitle:
-description:
+subtitle: The pursuit of effective user experiences at the intersection of design and technology.
+description: A blog about interactive developer, digital designer, and tech tinker-er, Phil Swickard.
 author: Phil Swickard
-language: en
+language: 
 timezone: America/Los_Angeles
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://swickaphil.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:

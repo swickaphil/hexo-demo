@@ -3,9 +3,8 @@
     <%- partial('_partial/sidebar') %>
   <% } %>
   <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %><br>
-      <%= __('powered_by') %> <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
+    <div id="footer-info" class="inner"><span>
+      &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %> <a class='twitter' href='https://twitter.com/swickaphil'></a><a class='github' href='https://github.com/swickaphil'></a>
+    </span></div>
   </div>
 </footer>
